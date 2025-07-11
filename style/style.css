@@ -226,7 +226,7 @@ textarea{
  footer ul{
     display: flex;
     justify-content: space-between;
-    margin-left: 250px;
+    margin-left: 240px;
     margin-top: 0px;
  }
  .footer-navmenu li{
@@ -236,4 +236,8 @@ textarea{
  .footer-navmenu li a{
     text-decoration: none;
     color: #8987A1;
+ }
+ button:hover{
+    color: rgb(4, 4, 4);
+    background-color: coral;
  }
