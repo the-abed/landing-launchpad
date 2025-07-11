@@ -1,0 +1,26 @@
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.nav-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.button-primary{
+    background-color: rgba(78, 71, 255, 1);
+     font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
