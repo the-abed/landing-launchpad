@@ -200,3 +200,40 @@ textarea{
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
 }
+.footer-section{
+   
+    text-align: center;
+    padding: 20px 60px 20px 60px;
+    
+}
+.footer-bg{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.footer-title{
+    text-align: center;
+    color: #4E47FF;
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-weight: black;
+ }
+ .footer-description{
+    max-width: 590px;
+    color: #8987A1;
+    margin: 0px 400px 0px 430px;
+
+ }
+ footer ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-top: 0px;
+ }
+ .footer-navmenu li{
+    list-style: none;
+    margin: 25px;
+ }
+ .footer-navmenu li a{
+    text-decoration: none;
+    color: #8987A1;
+ }
