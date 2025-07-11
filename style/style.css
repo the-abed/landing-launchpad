@@ -107,3 +107,96 @@ section img{
     justify-content: space-around;
     
 }
+.card{
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.feedback-heading{
+    color: black;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.users-data{
+    display: flex;
+    gap: 12px;
+}
+.feedback-card{
+    width: 366px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px;
+    border-radius: 20px;
+    
+    }
+.users-name{
+    color: grey;
+}
+.reviewer {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+ }
+    .reviewer-name{
+        color: #757575;
+ }
+    .reviewer-date{
+        color: #B3B3B3;
+    }
+    .information{
+        max-width: 1240px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        margin-left: 190px;
+        
+    }
+    
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+    .informatin-section-title{
+        max-width: 590px;
+        font-size: 55px;
+        font-weight: bold;
+        margin-right: 110px;
+        margin-top: 50px;
+    }
+    .information-form{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+input{
+    background-color: rgba(255, 255, 255, 1);
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+textarea{
+    width: 400px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 7px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
