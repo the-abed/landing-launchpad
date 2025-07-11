@@ -112,8 +112,42 @@ section img{
     gap: 30px;
     margin-left: 150px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     
+}
+.section-ready{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 1250px;
+    max-height: 700px;
+    margin-left: 130px;
+    border-radius: 30px;
+}
+.ready-section-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.ready-section-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 380px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.ready-section-button{
+    margin-left: 550px;
+    
+    
+}
+.ready-section-image{
+    width: 750px;
+    margin-top: 30px;
+    margin-left: 250px;
+    padding-bottom: 15px;
+    padding-top: 0px;
 }
 
 
