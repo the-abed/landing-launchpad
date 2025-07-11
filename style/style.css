@@ -5,6 +5,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+body{
+    background-color: rgb(245,248,255)
+}
 .nav-title{
     color: rgba(78, 71, 255, 1);
     font-size: 45px;
@@ -19,7 +22,7 @@ nav{
 .button-primary{
     background-color: rgba(78, 71, 255, 1);
      font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     border: none;
     padding: 18px 35px;
@@ -37,8 +40,33 @@ header{
     font-weight: bold;
 }
 .banner-content{
-    margin-top: 200px;
-    margin-left: 500px;
+    margin-top: 150px;
+    margin-left: 320px;
     max-width: 900px;
     text-align: center;
+}
+.action{
+   display: flex;
+   justify-content: space-between;
+   max-width: 1300px;
+   align-items: center;
+   gap: 220px;
+   margin-bottom: 115px;
+}
+.action-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.action-descrip{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 20px;
+}
+.action-items{
+   padding-bottom: 50px;
+    margin-left: 230px;
+    
+}
+section img{
+    size: 200px 403px;
+    border-radius: 50px;
 }
