@@ -48,7 +48,7 @@ header{
 .action{
    display: flex;
    justify-content: space-between;
-   max-width: 1300px;
+   max-width: 1380px;
    align-items: center;
    gap: 220px;
    margin-bottom: 115px;
@@ -63,10 +63,47 @@ header{
 }
 .action-items{
    padding-bottom: 50px;
-    margin-left: 230px;
+    margin-left: 160px;
     
 }
 section img{
     size: 200px 403px;
     border-radius: 50px;
+}
+.productive-user{
+    max-width: 1000px;
+   max-height: 240px;
+   text-align: center;
+    padding: 50px 160px;
+    margin: 0px 120px;
+    margin-bottom: 130px;
+    border-radius: 24px;
+   background-color: rgba(78, 71, 255, 0.1);
+   
+   
+}
+.user-section-titile{
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    
+}
+.user-section-items-des h3{
+    color: #4E47FF;
+   font-size: 80px;
+    font-weight: bold;
+    margin: 20px 0px 5px 0px;
+    
+}
+.user-section-items-des p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+.user-section-items{
+    display: flex;
+    justify-content: space-around;
+    
 }
